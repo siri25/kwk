@@ -168,7 +168,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/background-2.jpg); }
+  background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(background-2.jpg); }
 
 .header {
   height: 100vh;
@@ -226,13 +226,13 @@ body {
     box-shadow: 0 2rem 4rem black;
     transition: all 0.8s; }
     .party_box_1 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-1.jpg);
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-1.jpg);
       background-size: cover;
       background-position: top; }
     .party_box_2 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-2.jpg); }
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-2.jpg); }
     .party_box_3 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-3.jpg); }
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-3.jpg); }
     .party_box:hover {
       transform: translateY(2rem) scale(1.2); }
   .party_header2 {
@@ -353,7 +353,7 @@ body {
     background-size: cover;
     height: 50%;
     background-position: center;
-    background-image: url(../../images/coffee-7.jpg);
+    background-image: url(coffee-7.jpg);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
