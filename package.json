@@ -1,0 +1,19 @@
+{
+  "name": "kwk",
+  "version": "1.0.0",
+  "description": "koffee with katti",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/kwkrecepie.scss css/kwkRecepie.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siri25/kwk.git"
+  },
+  "author": "sirikatti",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
