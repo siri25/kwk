@@ -1,3 +1,13 @@
+/*
+0-600px phone
+600-900px tab-phone
+900-1200px tab-land
+
+1200-1800px desktop (our normal styles apply here)
+
+1800+ big desktop
+
+*/
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -31,6 +41,9 @@
   padding: 5rem;
   margin-top: 5rem;
   position: relative; }
+  @media (max-width: 37.5em) {
+    .composition {
+      visibility: hidden !important; } }
   .composition__photo {
     width: 65%;
     box-shadow: 0 1.5rem 4rem black;
@@ -38,18 +51,53 @@
     position: absolute;
     transition: all 0.2s;
     outline-offset: 1.5rem; }
+    @media (max-width: 75em) {
+      .composition__photo {
+        width: 50%; } }
+    @media (max-width: 37.5em) {
+      .composition__photo {
+        width: 60%; } }
     .composition__photo__p1 {
       left: 5rem;
       top: 8rem; }
+      @media (max-width: 37.5em) {
+        .composition__photo__p1 {
+          left: 10rem; } }
     .composition__photo__p2 {
       right: -17rem;
       top: 8rem; }
+      @media (max-width: 75em) {
+        .composition__photo__p2 {
+          right: -5rem; } }
+      @media (max-width: 37.5em) {
+        .composition__photo__p2 {
+          right: -10rem; } }
     .composition__photo__p3 {
       left: 9%;
       top: 26rem; }
+      @media (max-width: 56.25em) {
+        .composition__photo__p3 {
+          left: 12%;
+          top: 22rem; } }
+      @media (max-width: 37.5em) {
+        .composition__photo__p3 {
+          left: 38%;
+          top: 17rem; } }
     .composition__photo__p4 {
       left: 67%;
       top: 30.5rem; }
+      @media (max-width: 75em) {
+        .composition__photo__p4 {
+          left: 59.5%;
+          top: 26.5rem; } }
+      @media (max-width: 56.25em) {
+        .composition__photo__p4 {
+          left: 62.5%;
+          top: 22.5rem; } }
+      @media (max-width: 37.5em) {
+        .composition__photo__p4 {
+          top: 17rem;
+          left: 90; } }
     .composition__photo:hover {
       transform: scale(1.2);
       box-shadow: 0 2rem 4rem black;
@@ -168,7 +216,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(background-2.jpg); }
+  background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/background-2.jpg); }
 
 .header {
   height: 100vh;
@@ -216,23 +264,49 @@ body {
 
 .party {
   padding: 0 0 50rem 0; }
+  @media (max-width: 56.25em) {
+    .party {
+      padding: 0; } }
+  @media (max-width: 56.25em) {
+    .party_media {
+      width: 100% !important;
+      margin-bottom: 2rem;
+      height: auto !important; } }
   .party_box {
     width: 25rem;
-    height: 40rem;
-    margin-top: 3rem;
+    margin: 3rem auto 0 auto;
     padding: 3rem 0;
     text-align: center;
     background-color: #a737377e;
     box-shadow: 0 2rem 4rem black;
     transition: all 0.8s; }
+    @media (max-width: 75em) {
+      .party_box {
+        margin: 0 auto;
+        padding: 0; } }
+    @media (max-width: 56.25em) {
+      .party_box {
+        text-align: center;
+        position: relative;
+        left: 40%;
+        margin: 2rem;
+        padding-bottom: 5rem;
+        position: relative;
+        left: 30%; } }
     .party_box_1 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-1.jpg);
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-1.jpg);
       background-size: cover;
       background-position: top; }
+      @media (max-width: 75em) {
+        .party_box_1 {
+          margin-left: 5rem; } }
+      @media (max-width: 56.25em) {
+        .party_box_1 {
+          margin-left: 2rem; } }
     .party_box_2 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-2.jpg); }
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-2.jpg); }
     .party_box_3 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-3.jpg); }
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-3.jpg); }
     .party_box:hover {
       transform: translateY(2rem) scale(1.2); }
   .party_header2 {
@@ -262,6 +336,10 @@ body {
     color: transparent;
     text-align: center;
     padding: 2rem; }
+    @media (max-width: 75em) {
+      .party__header {
+        margin-top: 5rem;
+        padding-bottom: 0; } }
   .party__para {
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
@@ -292,14 +370,20 @@ body {
     font-size: 1.5rem;
     position: absolute;
     top: 67%;
-    border-top: 2px solid rgba(199, 31, 31, 0.616); }
+    border-top: 2px solid rgba(199, 31, 31, 0.616);
+    width: auto; }
+    @media (max-width: 37.5em) {
+      .footer_bottomleft {
+        font-size: 1rem;
+        width: 50%; } }
   .footer_bottomright {
     position: absolute;
     top: 67%;
     border-top: 2px solid rgba(199, 31, 31, 0.616);
     width: 47%;
     float: right;
-    display: inline-block; }
+    display: inline-block;
+    width: auto; }
   .footer_bottomrighttext {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
@@ -307,6 +391,9 @@ body {
     padding-left: 5px; }
   .footer_links > li:first-child {
     padding-left: 2rem; }
+    @media (max-width: 37.5em) {
+      .footer_links > li:first-child {
+        padding-left: 0; } }
   .footer_link:link, .footer_link:visited {
     display: inline-block;
     list-style: none;
@@ -335,6 +422,18 @@ body {
     width: 100%;
     transition: all 2s ease;
     backface-visibility: hidden; }
+    @media (max-width: 75em) {
+      .card__side {
+        left: 7.5%; } }
+    @media (max-width: 56.25em) {
+      .card__side {
+        left: 4%;
+        width: 110%; } }
+    @media (max-width: 37.5em) {
+      .card__side {
+        left: 37%;
+        width: 150%;
+        margin-bottom: 2rem; } }
     .card__side--front {
       background: linear-gradient(to bottom right, #a737377e, #7a28288f);
       border-radius: 5px;
@@ -353,7 +452,7 @@ body {
     background-size: cover;
     height: 50%;
     background-position: center;
-    background-image: url(coffee-7.jpg);
+    background-image: url(../../images/coffee-7.jpg);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
@@ -445,6 +544,9 @@ body {
 .aboutus {
   position: relative;
   padding: 0 0 30rem 0; }
+  @media (max-width: 37.5em) {
+    .aboutus {
+      padding: 0 0 36rem 0; } }
   .aboutus__section {
     height: 90vh;
     background-size: cover;
