@@ -216,7 +216,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/background-2.jpg); }
+  background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(background-2.jpg); }
 
 .header {
   height: 100vh;
@@ -552,6 +552,9 @@ body {
     background-image:linear-gradient(to bottom right, #87000062, #190a0546), url(background-2.jpg);
     background-size: cover;
     background-position: top; }
+  @media (max-width: 75em) {
+      .aboutus__section {
+        height: 34vh; } }
   .aboutus__header {
     font-family: 'Merienda One', cursive;
     font-size: 4rem;
