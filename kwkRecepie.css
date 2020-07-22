@@ -294,7 +294,7 @@ body {
         position: relative;
         left: 30%; } }
     .party_box_1 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-1.jpg);
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-1.jpg);
       background-size: cover;
       background-position: top; }
       @media (max-width: 75em) {
@@ -304,9 +304,9 @@ body {
         .party_box_1 {
           margin-left: 2rem; } }
     .party_box_2 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-2.jpg); }
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-2.jpg); }
     .party_box_3 {
-      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(../../images/party-3.jpg); }
+      background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-3.jpg); }
     .party_box:hover {
       transform: translateY(2rem) scale(1.2); }
   .party_header2 {
