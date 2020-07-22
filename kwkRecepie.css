@@ -549,6 +549,7 @@ body {
       padding: 0 0 36rem 0; } }
   .aboutus__section {
     height: 90vh;
+    background-image:linear-gradient(to bottom right, #87000062, #190a0546), url(background-2.jpg);
     background-size: cover;
     background-position: top; }
   .aboutus__header {
