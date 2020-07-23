@@ -451,7 +451,7 @@ body {
         margin-bottom: 2rem; } }
  @media (max-width: 29.9em) {
       .card__side {
-        left: 18%;
+        left: 26%;
         widht:170%;} }
     .card__side--front {
       background: linear-gradient(to bottom right, #a737377e, #7a28288f);
