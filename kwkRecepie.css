@@ -121,6 +121,9 @@
     text-align: center;
     cursor: pointer;
     z-index: 2000; }
+@media (max-width: 29.9em) {
+    .navigation_button {
+      right:8.8rem; } }
   .navigation_background {
     height: 6rem;
     width: 6rem;
@@ -254,15 +257,11 @@ body {
     color: transparent;
     position: absolute;
     top: 30%;
-    left: 50%;
-    
-    @media (max-width: 29.9em) {
+    left: 50%; 
+    animation: MoveFromBottom 4s ease-in; }
+  @media (max-width: 29.9em) {
       .header__text {     
         left:21%; } }
-    
-    
-    
-    animation: MoveFromBottom 4s ease-in; }
 
 .heading {
   color: orangered;
