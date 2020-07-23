@@ -340,12 +340,20 @@ body {
       .party__header {
         margin-top: 5rem;
         padding-bottom: 0; } }
+ @media (max-width: 29.9em) {
+      .party__header {
+        margin-top: 37rem;
+        padding-bottom: 0;
+        padding-left: 0; } }
   .party__para {
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     color: #f3bbb7b7;
     text-align: center;
     padding: 2rem; }
+@media (max-width: 29.9em) {
+      .party__para {
+        text-align: inherit; } }
   .party__pic {
     width: 100%; }
 
@@ -434,6 +442,9 @@ body {
         left: 37%;
         width: 150%;
         margin-bottom: 2rem; } }
+ @media (max-width: 29.9em) {
+      .card__side {
+        left: 10%; } }
     .card__side--front {
       background: linear-gradient(to bottom right, #a737377e, #7a28288f);
       border-radius: 5px;
@@ -571,3 +582,7 @@ body {
     letter-spacing: 0.5rem;
     color: #f3bbb7b7;
     text-align: center; }
+ @media (max-width: 29.9em) {
+      .aboutus__text {
+        text-align: justify; } }
+
