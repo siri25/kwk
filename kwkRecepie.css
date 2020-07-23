@@ -466,7 +466,7 @@ body {
       .card__side {
         left: 22%;
         top:1rem;
-        widht:170%;} }
+        width:170%;} }
     .card__side--front {
       background: linear-gradient(to bottom right, #a737377e, #7a28288f);
       border-radius: 5px;
