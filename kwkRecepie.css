@@ -293,6 +293,9 @@ body {
         padding-bottom: 5rem;
         position: relative;
         left: 30%; } }
+ @media (max-width: 29.9em) {
+        .party_box {
+          margin-left: -5rem; } }
     .party_box_1 {
       background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-1.jpg);
       background-size: cover;
@@ -303,6 +306,7 @@ body {
       @media (max-width: 56.25em) {
         .party_box_1 {
           margin-left: 2rem; } }
+
     .party_box_2 {
       background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-2.jpg); }
     .party_box_3 {
@@ -444,7 +448,8 @@ body {
         margin-bottom: 2rem; } }
  @media (max-width: 29.9em) {
       .card__side {
-        left: 10%; } }
+        left: 18%;
+        widht:170%;} }
     .card__side--front {
       background: linear-gradient(to bottom right, #a737377e, #7a28288f);
       border-radius: 5px;
