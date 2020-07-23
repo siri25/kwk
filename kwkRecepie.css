@@ -306,6 +306,9 @@ body {
       @media (max-width: 56.25em) {
         .party_box_1 {
           margin-left: 2rem; } }
+@media (max-width: 29.9em) {
+        .party_box_1 {
+          margin-left: -5rem; } }
 
     .party_box_2 {
       background-image: linear-gradient(to bottom right, #87000062, #190a0546), url(party-2.jpg); }
